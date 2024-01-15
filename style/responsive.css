@@ -122,6 +122,12 @@ section>img {
         padding: 0 110px;
         margin-top: 31px;
     }
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 30px;
+        margin: 0 0px;
+    }
 }
 
 

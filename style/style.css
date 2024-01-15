@@ -141,6 +141,7 @@ section>img {
 }
 .popular{
     text-align: center;
+    margin-bottom: 40px;
 }
 .card {
     /* width: 329px; */
@@ -182,4 +183,11 @@ font-weight: 700;
 line-height: 143%; 
 
 }
-
+.arrow-container{
+    display: flex;
+}
+.arrow-button{
+text-decoration: none; 
+font-size: var(--font-size);   
+color: var(--btnColor);
+}
